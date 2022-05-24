@@ -1,0 +1,21 @@
+{
+  "name": "element-theme-create",
+  "version": "1.0.0",
+  "description": "生成elementUI的主题工具",
+  "files": [
+    "element-variables.scss",
+    "create-theme.js"
+  ],
+  "scripts": {
+    "init": "et --init",
+    "build": "node create-theme.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "element-theme-chalk": "^2.15.8",
+    "element-themex": "^1.0.3"
+  }
+}
